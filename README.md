@@ -1,7 +1,6 @@
 # prog-news
 
-News list made with Next.js
-Using Hacker News API
+News list made with Next.js using Hacker News API
 
 Stack:
 Next.js
