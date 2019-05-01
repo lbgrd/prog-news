@@ -1,0 +1,30 @@
+{
+  "name": "prog-news",
+  "version": "1.0.0",
+  "description": "News list progressive app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbgrd/prog-news.git"
+  },
+  "keywords": [],
+  "author": "Lou BIGARD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbgrd/prog-news/issues"
+  },
+  "homepage": "https://github.com/lbgrd/prog-news#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "sw-precache-webpack-plugin": "^0.11.5"
+  }
+}
